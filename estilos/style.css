@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+:root{
+    --font1: 'Lobster', cursive;
+    --font2: 'Mouse Memoirs', sans-serif;
+}
+
+*{
+    box-sizing:border-box; 
+    font-size: 65.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100px;
+    background-color: rgb(48,107,225);
+    box-shadow: 0px 2px 5px black;
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.h1-box h1{
+    font-size: 3rem;
+    font-family: var(--font1);
+    color: rgb(221,191,226);
+    text-shadow: 2px 2px 0px black;
+}
+
+.link-box a{
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: rgb(221,191,226);
+}
+
+.link-box a:hover{
+    border-bottom: 1px solid rgb(100,182,237);
+    color: rgb(100,182,237);
+    text-shadow: 2px 2px 0px black;
+}
+
+#section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 600px;
+    margin: 10rem 0rem 0rem 10rem;
+}
+
+.titulo-box{
+    width: 40%;
+}
+
+.linha1{
+    font-size: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 1rem;
+    color: rgb(221,191,226);
+    text-shadow: 0.8px 0.8px 0px black
+
+}
+
+.linha2{
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 5.5rem;
+    color: rgb(221,191,226);
+    text-shadow: 1px 1px 0px black
+}
+
+.titulo-box p{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: var(--font2);
+}
+
+button{
+    height: 4rem;
+    width: 40%;
+    font-size: 1.5rem;
+    font-family: var(--font2);
+    letter-spacing: 0.5px;
+    background-color: rgb(196,127,177);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(221,191,226);
+    transition: 1s;
+}
+
+img{
+    width: 60%;
+    height: 100%;
+
+}
+
+#section2{
+    text-align: center;
+}
+
+.section2-h2{
+    height: 10rem;
+    background: linear-gradient(to top, #b12a56, #e8a057, #f7dd58);
+    align-items: center;
+    justify-content: center;
+}
+
+#section2 h2{
+    padding: 2rem;
+    color: rgb(57,160,234);
+    text-shadow: 1px 1px 0px black;
+    font-size: 3.5rem;
+    font-family: var(--font1);
+}
+
+.box-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 0rem;
+
+}
+
+.info1{
+    width: 25%;
+    height: 20rem;
+    background-color: #4eb0f3;
+    border-radius: 5px;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.info1:hover{
+    background-color: #d4beea;
+    transition: 0.5s;
+}
+
+.info1 h3{
+    font-size: 2.5rem;
+}
+
+.info1 p{
+    font-size: 1.5rem;
+}
+
+.info2{
+    width: 25%;
+    height: 20rem;
+    background-color: #4eb0f3;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.info2:hover{
+    background-color: #d4beea;
+    transition: 0.5s;
+}
+
+.info2 h3{
+    font-size: 2.5rem;
+}
+
+.info2 p{
+    font-size: 1.5rem;
+}
+
+.info3{
+    width: 25%;
+    height: 20rem;
+    background-color: #4eb0f3;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.info3:hover{
+    background-color: #d4beea;
+    transition: 0.5s;
+}
+
+.info3 h3{
+    font-size: 2.5rem;
+}
+
+.info3 p{
+    font-size: 1.5rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid #b12a56;
+    background-color: #242836;
+    height: 180px;
+}
+
+.final{
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.final h2{
+    font-size: 2.5rem;
+    font-family: var(--font1);
+    margin-bottom: 0;
+    color: whitesmoke;
+    text-shadow: 2px 2px 0px black;
+}
+
+.final p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    color: whitesmoke;
+}
+
+footer p{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.whassapp-box{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.img-whats{
+    width: 90px;
+    height: 160px;
+}

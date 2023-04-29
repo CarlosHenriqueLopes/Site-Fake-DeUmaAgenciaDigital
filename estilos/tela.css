@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1250px){
+    .nav-bar{
+        position: relative;
+    }
+
+    .link-box{
+        display: none;
+    }
+
+    #section1{
+        margin-right: 8rem;
+        margin-top: 1rem;
+    }
+
+    .titulo-box{
+        width: 80%;
+        text-align: center;
+    }
+
+    .titulo-box button{
+        width: 100%;
+    }
+
+    img{
+        display: none;
+    }
+
+    .box-info{
+        flex-direction: column;
+        padding: 100px 100px 0px 100px;
+        margin-top: 0;
+    }
+
+    .info1{
+        width: 80%;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+
+    .info2{
+        width: 80%;
+        margin-bottom: 100px;
+    }
+
+    .info3{
+        width: 80%;
+        padding: 20px;
+    }
+}
